@@ -20,7 +20,7 @@ Note: all findings are "in this dataset". The counts look low compared with real
 HSR, Koramangala 5th Block, and JP Nagar have the lowest ratings (2.8 to 2.9) with very few restaurants listed. They could be checked first for offers and advertising, after getting more complete data.
 
 ## Chart
-![Top 10 areas by count](top 10 analysis of areas.png)
+   ![Top 10 areas by count](top%2010%20analysis%20of%20areas.png)
 
 ## Files
 - `analysis_queries.sql`: SQL queries used
