@@ -6,6 +6,8 @@ Latitude and longitude look unreliable for about 35 of 88 areas, so I did not us
 
 ## Tools
 SQL Server (SSMS) and Excel (pivot table and chart) , Python (pandas, matplotlib) and Power BI.
+## Process
+Checked the columns, row count, and duplicates, then analysed the data in four tools (SQL, Excel, Python, Power BI). All four gave the same results: 88 areas, 51,644 restaurants, and groups of 18 big, 47 middle, and 23 small areas.
 
 ## Key findings
 Note: all findings are "in this dataset". The counts look low compared with real life, so this may be a sample.
@@ -30,5 +32,5 @@ HSR, Koramangala 5th Block, and JP Nagar have the lowest ratings (2.8 to 2.9) wi
 
 ## Files
 - `analysis_queries.sql`: SQL queries used
-- the CSV: dataset
+- the CSV: zomato_locations.csv
 - - bengaluru_restaurants.pbix and dashboard.png: Power BI dashboard
