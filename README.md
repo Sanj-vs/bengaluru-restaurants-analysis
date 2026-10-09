@@ -5,7 +5,7 @@ SQL and Excel analysis of 88 Bengaluru areas: restaurant count vs average rating
 Latitude and longitude look unreliable for about 35 of 88 areas, so I did not use them.
 
 ## Tools
-SQL Server (SSMS) and Excel (pivot table and chart) and Python (pandas, matplotlib)
+SQL Server (SSMS) and Excel (pivot table and chart) , Python (pandas, matplotlib) and Power BI.
 
 ## Key findings
 Note: all findings are "in this dataset". The counts look low compared with real life, so this may be a sample.
@@ -24,9 +24,11 @@ HSR, Koramangala 5th Block, and JP Nagar have the lowest ratings (2.8 to 2.9) wi
 ## Chart
    ![Top 10 areas by count](top%2010%20analysis%20of%20areas.png)
    ### Python (matplotlib)
-![Top 10 areas by count, Python](python_top10_chart1.png)
+![Top 10 areas by count, Python](python_top10_chart.png)
+![Power BI dashboard](dashboard.png)
 
 
 ## Files
 - `analysis_queries.sql`: SQL queries used
 - the CSV: dataset
+- - bengaluru_restaurants.pbix and dashboard.png: Power BI dashboard
