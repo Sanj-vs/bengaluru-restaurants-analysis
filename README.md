@@ -23,6 +23,9 @@ HSR, Koramangala 5th Block, and JP Nagar have the lowest ratings (2.8 to 2.9) wi
 
 ## Chart
    ![Top 10 areas by count](top%2010%20analysis%20of%20areas.png)
+   ### Python (matplotlib)
+![Top 10 areas by count, Python](python_top10_chart1.png)
+
 
 ## Files
 - `analysis_queries.sql`: SQL queries used
