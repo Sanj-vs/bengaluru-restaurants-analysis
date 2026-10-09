@@ -2,9 +2,10 @@
 SQL and Excel analysis of 88 Bengaluru areas: restaurant count vs average rating
 ## Data
 88 areas, 5 columns: area name, restaurant count, latitude, longitude, average rating. Each row is one area. No blanks and no duplicates were found.
+Latitude and longitude look unreliable for about 35 of 88 areas, so I did not use them.
 
 ## Tools
-SQL Server (SSMS) and Excel (pivot table and chart).
+SQL Server (SSMS) and Excel (pivot table and chart) and Python (pandas, matplotlib)
 
 ## Key findings
 Note: all findings are "in this dataset". The counts look low compared with real life, so this may be a sample.
@@ -15,7 +16,7 @@ Note: all findings are "in this dataset". The counts look low compared with real
 4. **Pattern:** areas with more restaurants tend to have higher ratings.
 5. **Outlier:** BTM has a rating of 0 with 6 restaurants. This probably means "no ratings yet", so I left it out of rating calculations.
 6. **Concentration:** the top 10 areas hold about 45% of all restaurants (23,301 of 51,644).
-7. “Latitude and longitude are unreliable for about 35 of 88 areas (wrong place matched), so they were not used. A map would need corrected coordinates.” 
+
 
 ## Suggestion
 HSR, Koramangala 5th Block, and JP Nagar have the lowest ratings (2.8 to 2.9) with very few restaurants listed. They could be checked first for offers and advertising, after getting more complete data.
